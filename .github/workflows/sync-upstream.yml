@@ -1,0 +1,34 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror upstream master and tags
+        env:
+          UPSTREAM: https://ganigeorgiev.com/git/pocketbase/pocketbase
+          FORK: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        run: |
+          git init -q mirror
+          cd mirror
+          git remote add upstream "$UPSTREAM"
+          git remote add fork "$FORK"
+
+          # Fetch the fork first so upstream only has to send the new commits.
+          git fetch --no-tags fork master
+          git fetch --tags upstream master
+
+          # No --force: if master ever diverges from upstream, the push fails instead of rewriting history.
+          git push fork FETCH_HEAD:refs/heads/master
+          git push fork --tags

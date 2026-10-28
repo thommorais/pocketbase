@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/search"
+	"ganigeorgiev.com/pocketbase/pocketbase/core"
+	"ganigeorgiev.com/pocketbase/pocketbase/forms"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/search"
 )
 
 // bindCollectionApi registers the collection api endpoints and the corresponding handlers.

@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/migrate"
+	"ganigeorgiev.com/pocketbase/pocketbase/core"
+	"ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/inflector"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/migrate"
 	"github.com/spf13/cobra"
 )
 

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/types"
+	validation "ganigeorgiev.com/pocketbase/ozzo-validation/v4"
+	"ganigeorgiev.com/pocketbase/pocketbase/models/schema"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestBaseModelFieldNames(t *testing.T) {

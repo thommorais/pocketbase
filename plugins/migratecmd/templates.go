@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 const (
@@ -339,8 +339,8 @@ func (p *plugin) goBlankTemplate() (string, error) {
 	const template = `package %s
 
 import (
-	"github.com/pocketbase/dbx"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/dbx"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
 )
 
 func init() {
@@ -370,10 +370,10 @@ func (p *plugin) goSnapshotTemplate(collections []*models.Collection) (string, e
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 func init() {
@@ -409,10 +409,10 @@ func (p *plugin) goCreateTemplate(collection *models.Collection) (string, error)
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 func init() {
@@ -457,10 +457,10 @@ func (p *plugin) goDeleteTemplate(collection *models.Collection) (string, error)
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 func init() {
@@ -719,16 +719,16 @@ func (p *plugin) goDiffTemplate(new *models.Collection, old *models.Collection) 
 		imports += "\n\t\"encoding/json\"\n"
 	}
 
-	imports += "\n\t\"github.com/pocketbase/dbx\""
-	imports += "\n\t\"github.com/pocketbase/pocketbase/daos\""
-	imports += "\n\tm \"github.com/pocketbase/pocketbase/migrations\""
+	imports += "\n\t\"ganigeorgiev.com/pocketbase/dbx\""
+	imports += "\n\t\"ganigeorgiev.com/pocketbase/pocketbase/daos\""
+	imports += "\n\tm \"ganigeorgiev.com/pocketbase/pocketbase/migrations\""
 
 	if strings.Contains(combined, "schema.SchemaField{") {
-		imports += "\n\t\"github.com/pocketbase/pocketbase/models/schema\""
+		imports += "\n\t\"ganigeorgiev.com/pocketbase/pocketbase/models/schema\""
 	}
 
 	if strings.Contains(combined, "types.Pointer(") {
-		imports += "\n\t\"github.com/pocketbase/pocketbase/tools/types\""
+		imports += "\n\t\"ganigeorgiev.com/pocketbase/pocketbase/tools/types\""
 	}
 	// ---
 

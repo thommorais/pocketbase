@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
+	validation "ganigeorgiev.com/pocketbase/ozzo-validation/v4"
+	"ganigeorgiev.com/pocketbase/pocketbase/core"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 // CollectionsImport is a form model to bulk import

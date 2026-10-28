@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/apis"
+	validation "ganigeorgiev.com/pocketbase/ozzo-validation/v4"
+	"ganigeorgiev.com/pocketbase/pocketbase/apis"
 )
 
 func TestNewApiErrorWithRawData(t *testing.T) {

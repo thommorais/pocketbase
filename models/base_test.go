@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 func TestBaseModelHasId(t *testing.T) {

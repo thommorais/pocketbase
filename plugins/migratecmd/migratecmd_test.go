@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/plugins/migratecmd"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/pocketbase/models/schema"
+	"ganigeorgiev.com/pocketbase/pocketbase/plugins/migratecmd"
+	"ganigeorgiev.com/pocketbase/pocketbase/tests"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -71,10 +71,10 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 func init() {
@@ -248,10 +248,10 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models"
 )
 
 func init() {
@@ -503,11 +503,11 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/daos"
+	m "ganigeorgiev.com/pocketbase/pocketbase/migrations"
+	"ganigeorgiev.com/pocketbase/pocketbase/models/schema"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/types"
 )
 
 func init() {

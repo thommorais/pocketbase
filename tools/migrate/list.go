@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"sort"
 
-	"github.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/dbx"
 )
 
 type Migration struct {

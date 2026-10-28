@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/dbx"
 )
 
 // Renormalizes old single and multiple values of MultiValuer fields (file, select, relation)

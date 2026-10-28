@@ -85,7 +85,7 @@ import (
 	s3managerv2 "github.com/aws/aws-sdk-go-v2/feature/s3/manager"
 	s3v2 "github.com/aws/aws-sdk-go-v2/service/s3"
 	typesv2 "github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/pocketbase/pocketbase/tools/routine"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/routine"
 
 	"github.com/aws/smithy-go"
 	"gocloud.dev/blob"

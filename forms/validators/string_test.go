@@ -3,7 +3,7 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/forms/validators"
+	"ganigeorgiev.com/pocketbase/pocketbase/forms/validators"
 )
 
 func TestCompare(t *testing.T) {

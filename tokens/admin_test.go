@@ -3,8 +3,8 @@ package tokens_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tokens"
+	"ganigeorgiev.com/pocketbase/pocketbase/tests"
+	"ganigeorgiev.com/pocketbase/pocketbase/tokens"
 )
 
 func TestNewAdminAuthToken(t *testing.T) {

@@ -3,7 +3,7 @@ package tests
 import (
 	"sync"
 
-	"github.com/pocketbase/pocketbase/tools/mailer"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/mailer"
 )
 
 var _ mailer.Mailer = (*TestMailer)(nil)

@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/domodwyer/mailyak/v3"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/security"
 )
 
 var _ Mailer = (*SmtpClient)(nil)

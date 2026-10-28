@@ -1,7 +1,7 @@
 package forms
 
 import (
-	validation "github.com/pocketbase/ozzo-validation/v4"
+	validation "ganigeorgiev.com/pocketbase/ozzo-validation/v4"
 )
 
 // RealtimeSubscribe is a realtime subscriptions request form.

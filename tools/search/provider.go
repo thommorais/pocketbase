@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/routine"
+	"ganigeorgiev.com/pocketbase/dbx"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/routine"
 	"golang.org/x/sync/errgroup"
 )
 

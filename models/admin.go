@@ -3,8 +3,8 @@ package models
 import (
 	"errors"
 
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/security"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/types"
 	"golang.org/x/crypto/bcrypt"
 )
 

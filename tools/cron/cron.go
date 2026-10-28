@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pocketbase/pocketbase/tools/routine"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/routine"
 )
 
 type job struct {

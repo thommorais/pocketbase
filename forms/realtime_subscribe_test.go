@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/forms"
+	validation "ganigeorgiev.com/pocketbase/ozzo-validation/v4"
+	"ganigeorgiev.com/pocketbase/pocketbase/forms"
 )
 
 func TestRealtimeSubscribeValidate(t *testing.T) {

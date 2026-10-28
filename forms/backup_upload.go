@@ -3,10 +3,10 @@ package forms
 import (
 	"context"
 
-	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/forms/validators"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
+	validation "ganigeorgiev.com/pocketbase/ozzo-validation/v4"
+	"ganigeorgiev.com/pocketbase/pocketbase/core"
+	"ganigeorgiev.com/pocketbase/pocketbase/forms/validators"
+	"ganigeorgiev.com/pocketbase/pocketbase/tools/filesystem"
 )
 
 // BackupUpload is a request form for uploading a new app backup.

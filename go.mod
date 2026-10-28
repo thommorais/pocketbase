@@ -1,8 +1,12 @@
-module github.com/pocketbase/pocketbase
+module ganigeorgiev.com/pocketbase/pocketbase
 
 go 1.26.0
 
 require (
+	ganigeorgiev.com/fexpr v0.7.0
+	ganigeorgiev.com/pocketbase/dbx v1.13.0
+	ganigeorgiev.com/pocketbase/ozzo-validation/v4 v4.4.1
+	ganigeorgiev.com/pocketbase/tygoja v0.2.0
 	github.com/AlecAivazis/survey/v2 v2.3.7
 	github.com/aws/aws-sdk-go-v2 v1.32.6
 	github.com/aws/aws-sdk-go-v2/config v1.28.6
@@ -17,14 +21,10 @@ require (
 	github.com/fatih/color v1.18.0
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/gabriel-vasile/mimetype v1.4.7
-	github.com/ganigeorgiev/fexpr v0.6.0
 	github.com/goccy/go-json v0.10.4
 	github.com/golang-jwt/jwt/v4 v4.5.2
 	github.com/labstack/echo/v5 v5.0.0-20230722203903-ec5b858dab61
 	github.com/mattn/go-sqlite3 v1.14.24
-	github.com/pocketbase/dbx v1.11.0
-	github.com/pocketbase/ozzo-validation/v4 v4.3.0
-	github.com/pocketbase/tygoja v0.0.0-20241015175937-d6ff411a0f75
 	github.com/spf13/cast v1.7.1
 	github.com/spf13/cobra v1.8.1
 	gocloud.dev v0.40.0

@@ -13,6 +13,14 @@ cloud.google.com/go/storage v1.43.0 h1:CcxnSohZwizt4LCzQHWvBf1/kvtHUn7gk9QERXPyX
 cloud.google.com/go/storage v1.43.0/go.mod h1:ajvxEa7WmZS1PxvKRq4bq0tFT3vMd502JwstCcYv0Q0=
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
+ganigeorgiev.com/fexpr v0.7.0 h1:Os5bP9dU13UNo5qDTsTPTTkodLM96kO52WIEmMmCt30=
+ganigeorgiev.com/fexpr v0.7.0/go.mod h1:XrG5iYw+AGq55zq2+QY1zQvO+ovbEca08u7q0hucPdY=
+ganigeorgiev.com/pocketbase/dbx v1.13.0 h1:t8S5CaMv93tEOqaOToFaVQ994zldshdhIrVHKmxRjwc=
+ganigeorgiev.com/pocketbase/dbx v1.13.0/go.mod h1:QefEiWbbE/YoSipLGg33FbNc/GAX/2f3ymz02j2MGKo=
+ganigeorgiev.com/pocketbase/ozzo-validation/v4 v4.4.1 h1:teL3Lw7HCGZRdIQdqE/gV5DueFaN5Wj+/r4Ewg3M2WA=
+ganigeorgiev.com/pocketbase/ozzo-validation/v4 v4.4.1/go.mod h1:oV1SPPkS3PlKYYj+r9YDs48ooAWgC736cuFanXDXxbM=
+ganigeorgiev.com/pocketbase/tygoja v0.2.0 h1:oAs/GRAdvq0wgaSIVLQY7N4jQtqsLGFyEJQRJcspPJU=
+ganigeorgiev.com/pocketbase/tygoja v0.2.0/go.mod h1:OrngtDcdnptk0dJoBuVSdT0RG5hbXVX0QPmK6+xtoS4=
 github.com/AlecAivazis/survey/v2 v2.3.7 h1:6I/u8FvytdGsgonrYsVn2t8t4QiRnh6QSTqkkhIiSjQ=
 github.com/AlecAivazis/survey/v2 v2.3.7/go.mod h1:xUTIdE4KCOIjsBAE1JYsUPoCqYdZ1reCfTwbto0Fduo=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
@@ -98,8 +106,6 @@ github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nos
 github.com/fsnotify/fsnotify v1.7.0/go.mod h1:40Bi/Hjc2AVfZrqy+aj+yEI+/bRxZnMJyTJwOpGvigM=
 github.com/gabriel-vasile/mimetype v1.4.7 h1:SKFKl7kD0RiPdbht0s7hFtjl489WcQ1VyPW8ZzUMYCA=
 github.com/gabriel-vasile/mimetype v1.4.7/go.mod h1:GDlAgAyIRT27BhFl53XNAFtfjzOkLaF35JdEG0P7LtU=
-github.com/ganigeorgiev/fexpr v0.6.0 h1:Fza3O/QMBKEudUvxV862qe6GjxM60GJjjKytdp+VQus=
-github.com/ganigeorgiev/fexpr v0.6.0/go.mod h1:RyGiGqmeXhEQ6+mlGdnUleLHgtzzu/VGO2WtJkF5drE=
 github.com/go-logr/logr v1.4.2 h1:6pFjapn8bFcIbiKo3XT4j/BhANplGihG6tvd+8rYgrY=
 github.com/go-logr/logr v1.4.2/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=
@@ -185,12 +191,6 @@ github.com/ncruces/go-strftime v1.0.0 h1:HMFp8mLCTPp341M/ZnA4qaf7ZlsbTc+miZjCLOF
 github.com/ncruces/go-strftime v1.0.0/go.mod h1:Fwc5htZGVVkseilnfgOVb9mKy6w1naJmn9CehxcKcls=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/pocketbase/dbx v1.11.0 h1:LpZezioMfT3K4tLrqA55wWFw1EtH1pM4tzSVa7kgszU=
-github.com/pocketbase/dbx v1.11.0/go.mod h1:xXRCIAKTHMgUCyCKZm55pUOdvFziJjQfXaWKhu2vhMs=
-github.com/pocketbase/ozzo-validation/v4 v4.3.0 h1:uKBDVma7bZqgR2a6AwE+k9hkuDFfiZMpBHQdZ1z3iQs=
-github.com/pocketbase/ozzo-validation/v4 v4.3.0/go.mod h1:6XNjSTw/Jb2F8LOkKO3oyzIWExbrGiYoS4uVxVwz90g=
-github.com/pocketbase/tygoja v0.0.0-20241015175937-d6ff411a0f75 h1:XSbmekxgmbI2uPrre/nkCz7y8VsV652TPb3hAYzPb74=
-github.com/pocketbase/tygoja v0.0.0-20241015175937-d6ff411a0f75/go.mod h1:hKJWPGFqavk3cdTa47Qvs8g37lnfI57OYdVVbIqW5aE=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec h1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=

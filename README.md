@@ -1,3 +1,7 @@
+**⚠️ The repo has moved to https://ganigeorgiev.com/pocketbase/pocketbase.**
+
+---
+
 <p align="center">
     <a href="https://pocketbase.io" target="_blank" rel="noopener">
         <img src="https://ganigeorgiev.com/api/git/pocketbase/pocketbase/content/.bugstage/readme.png" alt="PocketBase - open source backend in 1 file" />
